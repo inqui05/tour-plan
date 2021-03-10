@@ -27,6 +27,9 @@
     font-weight: 400
     font-size: 12px
     line-height: 15px
+  &-grid
+    display: flex
+    justify-content: space-between
 .stars
   flex-basis: 100%
 .offer
@@ -90,3 +93,34 @@
     &--next
       right: 18px
       background-image: url(../img/arrow-next.svg)
+.booking
+  background-color: $dark
+  color: $light
+  border-radius: 8px
+  padding: 28px
+  width: 350px
+  min-height: 210px
+  &__info
+    display: flex
+    justify-content: space-between
+    border: 1px solid red
+  &__price
+    border: 1px solid green
+    display: flex
+    flex-direction: column
+  &__start
+    font-weight: normal
+    font-size: 10px
+    line-height: 14px
+  &__pricetag
+    font-family: Nunito
+    font-style: normal
+    font-weight: 800
+    font-size: 24px
+    line-height: 33px
+  &__per-room
+    font-family: Nunito
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 16px
