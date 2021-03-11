@@ -2,8 +2,8 @@
   padding: 70px 0 40px 0
   &-title
     font-weight: bold
-    font-size: 30px
-    line-height: 38px
+    font-size: 36px
+    line-height: 45px
     text-align: center
     text-transform: uppercase
     margin-top: 0
@@ -16,7 +16,7 @@
       align-items: center
       display: flex
       flex-direction: column
-      width: 730px
+      max-width: 730px
       margin: 45px auto 0
       padding: 0 97px 30px
       &::before
@@ -45,10 +45,17 @@
       height: 30px
       background-size: 10px
       background-repeat: no-repeat
+      background-position: center
+      border: none
+      cursor: pointer
+      background-color: transparent
+      z-index: 99
       &--prev
-        background-image: url(../img/arrow-prev-secondary)
+        background-image: url(../img/arrow-prev-secondary.svg)
+        left: 0
       &--next
-        background-image: url(../img/arrow-next-secondary)
+        background-image: url(../img/arrow-next-secondary.svg)
+        right: 0
     &__profile
       display: flex
       flex-direction: column
